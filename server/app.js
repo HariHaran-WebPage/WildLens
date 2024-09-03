@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://quiet-lily-6e9317.netlify.app",
     // origin: 'http://localhost:5173', // Allow only this origin
     credentials: true, // Allow cookies and authentication headers
   })
