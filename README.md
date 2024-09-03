@@ -8,7 +8,7 @@
 - **Backend**: Node.js with Express
 - **Database**: MongoDB Atlas
 - **Payment Integration**: Razorpay
-- **Deployment**: [WildLens Tour Website]((https://wildlenstour.netlify.app/home))
+- **Deployment**: [WildLens Tour Website](https://wildlenstour.netlify.app/home)
 
 ## Features
 
