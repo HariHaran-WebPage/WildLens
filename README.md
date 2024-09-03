@@ -58,9 +58,35 @@ Configure environment variables:
 
 Create a .env file in the backend directory and add your MongoDB connection string and Razorpay keys:
 
-MONGO_URI=your_mongodb_connection_string
-RAZORPAY_KEY_ID=your_razorpay_key_id
-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+    MONGODB_URI=your_mongodb_connection_string
+    JWT_SECRET=your_Token
+    CLIENT_SITE_URL=http://localhost:5173 / Frontend Link
+    PORT=5000 /Your port
+    RAZORPAY_KEY_ID=your_razorpay_key_id
+    RAZORPAY_KEY_SECRET=your_razorpay_key_secret
+
+
+    ------------------------------------------------------------------
+
+    Frontend .env file
+
+    REACT_APP_API_URL = https://localhost:5000/api  / Your Backend port
+
+    -----------------------------------------------------------------------
+
+    Start the backend server:
+    npm run start
+    -------------------------------------------------------------------------
+    Install frontend dependencies:
+    cd ../frontend
+    npm install
+    -------------------------------------------------------------------------
+    Start the frontend development server:
+    npm run dev
+    ------------------------------------------------------------------------------
+     Access the website:
+     Open your browser and navigate to http://localhost:5173.
+
 
 
 
